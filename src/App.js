@@ -12,12 +12,9 @@ function App() {
 				{console.log("Inside the return")}
 				{showEmployees ? (
 					<div>
-						<Employee />
-						<Employee />
-						<Employee />
-						<Employee />
-						<Employee />
-						<Employee />
+						<Employee name="Dipanshu" role="newbie" />
+						<Employee name="Vrukshali" />
+						<Employee name="Tony" />
 					</div>
 				) : (
 					<h3>You don't have access to the Employees.</h3>
